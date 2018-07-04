@@ -1,0 +1,766 @@
+==============================================================================
+memcached stats all
+['cbstats', '-a', '127.0.0.1:11209', 'all', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats allocator
+['cbstats', '-a', '127.0.0.1:11209', 'allocator', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats checkpoint
+['cbstats', '-a', '127.0.0.1:11209', 'checkpoint', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats config
+['cbstats', '-a', '127.0.0.1:11209', 'config', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats dcp
+['cbstats', '-a', '127.0.0.1:11209', 'dcp', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats dcpagg
+['cbstats', '-a', '127.0.0.1:11209', 'dcpagg', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats ['diskinfo', 'detail']
+['cbstats', '-a', '127.0.0.1:11209', 'diskinfo', 'detail', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats ['dispatcher', 'logs']
+['cbstats', '-a', '127.0.0.1:11209', 'dispatcher', 'logs', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats failovers
+['cbstats', '-a', '127.0.0.1:11209', 'failovers', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats ['hash', 'detail']
+['cbstats', '-a', '127.0.0.1:11209', 'hash', 'detail', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats kvstore
+['cbstats', '-a', '127.0.0.1:11209', 'kvstore', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats kvtimings
+['cbstats', '-a', '127.0.0.1:11209', 'kvtimings', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats memory
+['cbstats', '-a', '127.0.0.1:11209', 'memory', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats prev-vbucket
+['cbstats', '-a', '127.0.0.1:11209', 'prev-vbucket', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats runtimes
+['cbstats', '-a', '127.0.0.1:11209', 'runtimes', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats scheduler
+['cbstats', '-a', '127.0.0.1:11209', 'scheduler', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats tap
+['cbstats', '-a', '127.0.0.1:11209', 'tap', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats tapagg
+['cbstats', '-a', '127.0.0.1:11209', 'tapagg', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats timings
+['cbstats', '-a', '127.0.0.1:11209', 'timings', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats uuid
+['cbstats', '-a', '127.0.0.1:11209', 'uuid', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats vbucket
+['cbstats', '-a', '127.0.0.1:11209', 'vbucket', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats vbucket-details
+['cbstats', '-a', '127.0.0.1:11209', 'vbucket-details', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats vbucket-seqno
+['cbstats', '-a', '127.0.0.1:11209', 'vbucket-seqno', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats warmup
+['cbstats', '-a', '127.0.0.1:11209', 'warmup', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached stats workload
+['cbstats', '-a', '127.0.0.1:11209', 'workload', '-b', '_admin', '-p', '99491892a983ddff3f3291236ceee8a5']
+==============================================================================
+******************************************************************************
+
+
+Traceback (most recent call last):
+  File "/opt/couchbase/lib/python/cbstats", line 551, in <module>
+    main()
+  File "/opt/couchbase/lib/python/cbstats", line 548, in main
+    c.execute()
+  File "/opt/couchbase/lib/python/clitool.py", line 62, in execute
+    f[0](mc, *args[2:], **opts.__dict__)
+  File "/opt/couchbase/lib/python/cbstats", line 56, in g
+    mc.bucket_select(bucket)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 426, in bucket_select
+    return self._doCmd(memcacheConstants.CMD_SELECT_BUCKET, name, '')
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 130, in _doCmd
+    return self._handleSingleResponse(opaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 123, in _handleSingleResponse
+    cmd, opaque, cas, keylen, extralen, data = self._handleKeyedResponse(myopaque)
+  File "/opt/couchbase/lib/python/mc_bin_client.py", line 119, in _handleKeyedResponse
+    raise MemcachedError(errcode,  rv)
+mc_bin_client.MemcachedError: Memcached error #1:  Not found
+==============================================================================
+memcached mcstat connections
+['mcstat', '-h', '127.0.0.1:11209', '-u', '_admin', '-P', '99491892a983ddff3f3291236ceee8a5', 'connections']
+==============================================================================
+{"connection":"0x7f4414a8e0e0","socket":76,"protocol":"memcached","peername":"*","sockname":"0.0.0.0:11210","parent_port":11210,"bucket_index":-1,"admin":false,"sasl_conn":"0x7f4414a22cc0","nodelay":false,"refcount":1,"features":{"datatype":true,"mutation_extras":true},"engine_storage":"0x0","next":"0x0","thread":"0x0","priority":"Medium","clustermap_revno":"unknown"}
+{"connection":"0x7f4414a8e220","socket":77,"protocol":"memcached","peername":"*","sockname":"[::]:11210","parent_port":11210,"bucket_index":-1,"admin":false,"sasl_conn":"0x7f4414a22d20","nodelay":false,"refcount":1,"features":{"datatype":true,"mutation_extras":true},"engine_storage":"0x0","next":"0x7f4414a8e0e0","thread":"0x0","priority":"Medium","clustermap_revno":"unknown"}
+{"connection":"0x7f4414a8e360","socket":78,"protocol":"memcached","peername":"*","sockname":"0.0.0.0:11209","parent_port":11209,"bucket_index":-1,"admin":false,"sasl_conn":"0x7f4414a22d80","nodelay":false,"refcount":1,"features":{"datatype":true,"mutation_extras":true},"engine_storage":"0x0","next":"0x7f4414a8e220","thread":"0x0","priority":"Medium","clustermap_revno":"unknown"}
+{"connection":"0x7f4414a8e4a0","socket":79,"protocol":"memcached","peername":"*","sockname":"[::]:11209","parent_port":11209,"bucket_index":-1,"admin":false,"sasl_conn":"0x7f4414a22de0","nodelay":false,"refcount":1,"features":{"datatype":true,"mutation_extras":true},"engine_storage":"0x0","next":"0x7f4414a8e360","thread":"0x0","priority":"Medium","clustermap_revno":"unknown"}
+{"connection":"0x7f4414a8e5e0","socket":80,"protocol":"memcached","peername":"*","sockname":"0.0.0.0:11207","parent_port":11207,"bucket_index":-1,"admin":false,"sasl_conn":"0x7f4414a22e40","nodelay":false,"refcount":1,"features":{"datatype":true,"mutation_extras":true},"engine_storage":"0x0","next":"0x7f4414a8e4a0","thread":"0x0","priority":"Medium","clustermap_revno":"unknown"}
+{"connection":"0x7f4414a8e720","socket":81,"protocol":"memcached","peername":"*","sockname":"[::]:11207","parent_port":11207,"bucket_index":-1,"admin":false,"sasl_conn":"0x7f4414a22f60","nodelay":false,"refcount":1,"features":{"datatype":true,"mutation_extras":true},"engine_storage":"0x0","next":"0x7f4414a8e5e0","thread":"0x0","priority":"Medium","clustermap_revno":"unknown"}
+{"connection":"0x7f4414a55000","socket":82,"protocol":"memcached","peername":"127.0.0.1:38861","sockname":"127.0.0.1:11209","parent_port":11209,"bucket_index":0,"admin":true,"username":"_admin","sasl_conn":"0x7f4414a58540","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1d000","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x0","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f4414a66000","curr":"0x7f4414a66800","size":2048,"bytes":99},"write_and_go":"conn_new_cmd","ritem":"0x7f4414abd81d","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f4414a66800","len":"0x63"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":99},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":false},"total_recv":67191208,"total_send":229376613}
+{"connection":"0x7f4414b9df00","socket":88,"protocol":"memcached","peername":"10.50.140.46:34796","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"datastore","sasl_conn":"0x7f4414a22fc0","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1d138","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x969f5200","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f44008c0000","curr":"0x7f44008bf800","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f4414ae7818","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f44008c0000","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2688874,"total_send":2693644,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f440047c700","socket":89,"protocol":"memcached","peername":"10.50.156.44:59532","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"datastore","sasl_conn":"0x7f44001d8840","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1d3a8","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0xf8365c00","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f44008c0800","curr":"0x7f44008c3000","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f4400c11018","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f44008c0800","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2688364,"total_send":2693134,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f440047a000","socket":91,"protocol":"memcached","peername":"10.50.172.42:40916","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"datastore","sasl_conn":"0x7f44000cecc0","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1d618","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0xcfc75a00","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f4400932800","curr":"0x7f4400932000","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f44008e9818","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f4400932800","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2687939,"total_send":2692709,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f4400953f00","socket":83,"protocol":"memcached","peername":"10.50.156.44:60180","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"fifo","sasl_conn":"0x7f44002b4e40","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1dd68","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x85ecba02","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f440008a000","curr":"0x7f440093f000","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f440004c818","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f440008a000","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2684284,"total_send":2689054,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f4414b9d000","socket":84,"protocol":"memcached","peername":"10.50.156.44:60200","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"config","sasl_conn":"0x7f440025e8c0","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1d138","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x8decba02","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f44008bf800","curr":"0x7f44008bf000","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f4414ae7818","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f44008bf800","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2684284,"total_send":2689054,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f4414bc5f00","socket":87,"protocol":"memcached","peername":"10.50.172.42:41624","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"fifo","sasl_conn":"0x7f440025e920","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1d3a8","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x1afa8b02","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f4400c11800","curr":"0x7f44008c3000","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f4400c11018","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f4400c11800","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2683604,"total_send":2688374,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f440047af00","socket":90,"protocol":"memcached","peername":"10.50.172.42:41644","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"config","sasl_conn":"0x7f4414bbd040","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1d618","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x24fa8b02","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f4400932000","curr":"0x7f44009bf800","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f44008e9818","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f4400932000","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2683604,"total_send":2688374,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f4400834000","socket":85,"protocol":"memcached","peername":"10.50.140.46:36016","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"fifo","sasl_conn":"0x7f4400ce0740","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1d888","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x89fd4103","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f4400d82800","curr":"0x7f4400d82000","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f4400c16818","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f4400d82800","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2682924,"total_send":2687694,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f440083e000","socket":86,"protocol":"memcached","peername":"10.50.140.46:36040","sockname":"10.50.172.62:11207","parent_port":11207,"bucket_index":0,"admin":false,"username":"config","sasl_conn":"0x7f4414bc9680","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1daf8","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x94fd4103","max_reqs_per_event":20,"nevents":19,"state":"conn_read","cmd":"0xff","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x0","curr":"0x0","size":0,"bytes":0},"write":{"buf":"0x7f4400de6800","curr":"0x7f44008e5000","size":2048,"bytes":26},"write_and_go":"conn_new_cmd","ritem":"0x7f4400dda818","rlbytes":0,"item":"0x0","iov":{"size":10,"used":1,"vector":[{"base":"0x7f4400de6800","len":"0x18"}]},"msglist":{"size":5,"used":1,"curr":1,"bytes":24},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x0","size":0,"offset":0},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":true,"connected":true,"error":false,"total_recv":2682924,"total_send":2687694,"input_buff_total":0,"input_buff_current":0,"output_buff_total":0,"output_buff_current":0},"total_recv":0,"total_send":0}
+{"connection":"0x7f4400420100","socket":92,"protocol":"memcached","peername":"127.0.0.1:56128","sockname":"127.0.0.1:11209","parent_port":11209,"bucket_index":0,"admin":true,"username":"_admin","sasl_conn":"0x7f44001dae20","nodelay":true,"refcount":1,"features":{"datatype":false,"mutation_extras":false},"engine_storage":"0x0","next":"0x0","thread":"0x7f4414a1dd68","priority":"Medium","clustermap_revno":"unknown","tap":false,"dcp":false,"opaque":"0x0","max_reqs_per_event":20,"nevents":20,"state":"conn_nread","cmd":"STAT","libevent":{"registered":true,"ev_flags":{"raw":"0x12","decoded":["read","persist"]},"which":{"raw":"0x2","decoded":["read"]}},"read":{"buf":"0x7f440004c800","curr":"0x7f440004c823","size":2048,"bytes":0},"write":{"buf":"0x7f44008bf000","curr":"0x7f44008bf000","size":2048,"bytes":0},"write_and_go":"conn_new_cmd","ritem":"0x7f440004c823","rlbytes":0,"item":"0x0","iov":{"size":10,"used":0},"msglist":{"size":5,"used":1,"curr":0,"bytes":0},"itemlist":{"size":0},"temp_alloc_list":{"size":0},"noreply":false,"DynamicBuffer":{"buffer":"0x7f440045a000","size":16384,"offset":16352},"cas":"0x0","aiostat":0,"ewouldblock":false,"ssl":{"enabled":false},"total_recv":293,"total_send":345}
+
+==============================================================================
+moxi stats (port 11211)
+echo stats proxy | nc 127.0.0.1 11211
+==============================================================================
+/bin/sh: nc: command not found
+==============================================================================
+mctimings
+['mctimings', '-u', '_admin', '-P', '99491892a983ddff3f3291236ceee8a5', '-h', '127.0.0.1:11209', '-v']
+==============================================================================
+The following data is collected for "NOOP"
+[   0 -  999]ns (  1.00%)    7496 | 
+[   0 -    9]us ( 99.93%)  743255 | ############################################
+[  10 -   19]us ( 99.98%)     395 | 
+[  20 -   29]us (100.00%)     111 | 
+[  30 -   39]us (100.00%)      10 | 
+[  40 -   49]us (100.00%)       8 | 
+[  50 -   59]us (100.00%)       5 | 
+[  70 -   79]us (100.00%)       1 | 
+Total: 751281 operations
+The following data is collected for "STAT"
+[   0 -    9]us (  0.00%)        1 | 
+[  10 -   19]us (  1.29%)    29958 | 
+[  20 -   29]us ( 77.47%)  1765026 | ############################################
+[  30 -   39]us ( 99.62%)   513242 | ############
+[  40 -   49]us ( 99.87%)     5585 | 
+[  50 -   59]us ( 99.91%)     1119 | 
+[  60 -   69]us ( 99.95%)      858 | 
+[  70 -   79]us ( 99.98%)      569 | 
+[  80 -   89]us ( 99.99%)      258 | 
+[  90 -   99]us ( 99.99%)      157 | 
+[ 100 -  109]us (100.00%)      110 | 
+[ 110 -  119]us (100.00%)       33 | 
+[ 120 -  129]us (100.00%)        8 | 
+[ 130 -  139]us (100.00%)        6 | 
+[ 140 -  149]us (100.00%)        1 | 
+[ 160 -  169]us (100.00%)        2 | 
+[ 180 -  189]us (100.00%)        2 | 
+[  39 -   39]ms (100.00%)        1 | 
+Total: 2316936 operations
+The following data is collected for "HELLO"
+[   0 -    9]us ( 93.80%)  121 | ############################################
+[  10 -   19]us ( 98.45%)    6 | ##
+[ 710 -  719]us ( 99.22%)    1 | 
+[   4 -    4]ms (100.00%)    1 | 
+Total: 129 operations
+The following data is collected for "SASL_LIST_MECHS"
+[   0 -    9]us ( 99.24%)  130 | ############################################
+[  10 -   19]us (100.00%)    1 | 
+Total: 131 operations
+The following data is collected for "SASL_AUTH"
+[  60 -   69]us ( 15.92%)  25 | ############################
+[  70 -   79]us ( 40.13%)  38 | ############################################
+[  80 -   89]us ( 52.87%)  20 | #######################
+[  90 -   99]us ( 68.15%)  24 | ###########################
+[ 100 -  109]us ( 84.08%)  25 | ############################
+[ 110 -  119]us ( 85.99%)   3 | ###
+[ 120 -  129]us ( 87.90%)   3 | ###
+[ 130 -  139]us ( 89.17%)   2 | ##
+[ 140 -  149]us ( 89.81%)   1 | #
+[ 160 -  169]us ( 91.72%)   3 | ###
+[ 170 -  179]us ( 92.99%)   2 | ##
+[ 210 -  219]us ( 93.63%)   1 | #
+[ 230 -  239]us ( 94.27%)   1 | #
+[ 240 -  249]us ( 94.90%)   1 | #
+[ 380 -  389]us ( 95.54%)   1 | #
+[ 420 -  429]us ( 96.18%)   1 | #
+[ 570 -  579]us ( 96.82%)   1 | #
+[ 620 -  629]us ( 97.45%)   1 | #
+[ 830 -  839]us ( 98.09%)   1 | #
+[ 860 -  869]us ( 98.73%)   1 | #
+[   1 -    1]ms ( 99.36%)   1 | #
+[   6 -    6]ms (100.00%)   1 | #
+Total: 157 operations
+The following data is collected for "SASL_STEP"
+[  90 -   99]us (  1.53%)   2 | ##
+[ 100 -  109]us ( 19.85%)  24 | #############################
+[ 110 -  119]us ( 47.33%)  36 | ############################################
+[ 120 -  129]us ( 61.83%)  19 | #######################
+[ 130 -  139]us ( 68.70%)   9 | ###########
+[ 140 -  149]us ( 74.81%)   8 | #########
+[ 150 -  159]us ( 79.39%)   6 | #######
+[ 160 -  169]us ( 82.44%)   4 | ####
+[ 170 -  179]us ( 84.73%)   3 | ###
+[ 180 -  189]us ( 87.02%)   3 | ###
+[ 190 -  199]us ( 87.79%)   1 | #
+[ 200 -  209]us ( 89.31%)   2 | ##
+[ 210 -  219]us ( 90.08%)   1 | #
+[ 220 -  229]us ( 91.60%)   2 | ##
+[ 240 -  249]us ( 92.37%)   1 | #
+[ 260 -  269]us ( 93.89%)   2 | ##
+[ 280 -  289]us ( 94.66%)   1 | #
+[ 290 -  299]us ( 95.42%)   1 | #
+[ 570 -  579]us ( 96.18%)   1 | #
+[   1 -    1]ms ( 97.71%)   2 | ##
+[   3 -    3]ms ( 99.24%)   2 | ##
+[   9 -    9]ms (100.00%)   1 | #
+Total: 131 operations
+The following data is collected for "AUDIT_CONFIG_RELOAD"
+[ 740 -  749]us (100.00%)  1 | ############################################
+Total: 1 operations
+The following data is collected for "LIST_BUCKETS"
+[   0 -    9]us ( 64.00%)  16 | ############################################
+[  10 -   19]us (100.00%)   9 | ########################
+Total: 25 operations
+The following data is collected for "SELECT_BUCKET"
+[   0 -    9]us (100.00%)  25 | ############################################
+Total: 25 operations
+The following data is collected for "GET_CMD_TIMER"
+[  40 -   49]us ( 93.83%)  228 | ############################################
+[  50 -   59]us ( 98.35%)   11 | ##
+[  60 -   69]us ( 99.59%)    3 | 
+[  70 -   79]us (100.00%)    1 | 
+Total: 243 operations
+==============================================================================
+mctimings
+['mctimings', '-u', '_admin', '-P', '99491892a983ddff3f3291236ceee8a5', '-h', '127.0.0.1:11209', '-v', 'subdoc_execute']
+==============================================================================
+The following data is collected for "subdoc_execute"
+Total: 0 operations

@@ -1,0 +1,26 @@
+[app/ui]
+version = 6.6.1
+modtime = 1511355564.164115000
+
+[app/launcher]
+version = 6.6.1
+modtime = 1511355564.175607000
+
+[views/couchbase_overview]
+owner = admin
+version = 6.6.1
+modtime = 1511386847.777028000
+
+[eventtypes/couchbase]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.6.1
+modtime = 1511365011.857734000
+
+[tags/eventtype%3Dcouchbase]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.6.1
+modtime = 1511365011.922025000

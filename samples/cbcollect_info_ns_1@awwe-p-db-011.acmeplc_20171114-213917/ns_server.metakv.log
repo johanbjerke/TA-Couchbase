@@ -1,0 +1,184 @@
+==============================================================================
+couchbase logs (metakv.log)
+cbbrowse_logs metakv.log
+==============================================================================
+[metakv:debug,2017-05-03T11:49:13.013+01:00,ns_1@127.0.0.1:simple_store_xdcr_ckpt_data<0.253.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-05-03T11:49:13.244+01:00,ns_1@127.0.0.1:<0.271.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-03T11:49:13.245+01:00,ns_1@127.0.0.1:<0.271.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-03T11:49:13.247+01:00,ns_1@127.0.0.1:<0.271.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-05-03T11:49:13.251+01:00,ns_1@127.0.0.1:<0.276.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-05-03T11:49:13.251+01:00,ns_1@127.0.0.1:<0.274.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-05-03T11:49:13.251+01:00,ns_1@127.0.0.1:<0.275.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-05-03T11:49:13.251+01:00,ns_1@127.0.0.1:<0.277.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-05-03T11:49:13.251+01:00,ns_1@127.0.0.1:<0.278.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-05-03T11:53:04.240+01:00,ns_1@127.0.0.1:simple_store_xdcr_ckpt_data<0.254.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-05-03T11:53:04.463+01:00,ns_1@127.0.0.1:<0.270.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-03T11:53:04.464+01:00,ns_1@127.0.0.1:<0.270.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-03T11:53:04.465+01:00,ns_1@127.0.0.1:<0.270.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-05-03T11:53:04.470+01:00,ns_1@127.0.0.1:<0.272.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-05-03T11:53:04.470+01:00,ns_1@127.0.0.1:<0.276.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-05-03T11:53:04.470+01:00,ns_1@127.0.0.1:<0.275.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-05-03T11:53:04.470+01:00,ns_1@127.0.0.1:<0.274.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-05-03T11:53:04.470+01:00,ns_1@127.0.0.1:<0.277.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-05-04T15:32:51.327+01:00,ns_1@127.0.0.1:simple_store_xdcr_ckpt_data<0.253.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-05-04T15:32:51.728+01:00,ns_1@127.0.0.1:<0.269.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-04T15:32:51.729+01:00,ns_1@127.0.0.1:<0.269.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-04T15:32:51.730+01:00,ns_1@127.0.0.1:<0.269.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-05-04T15:32:51.735+01:00,ns_1@127.0.0.1:<0.276.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-05-04T15:32:51.735+01:00,ns_1@127.0.0.1:<0.270.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-05-04T15:32:51.735+01:00,ns_1@127.0.0.1:<0.274.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-05-04T15:32:51.735+01:00,ns_1@127.0.0.1:<0.273.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-05-04T15:32:51.735+01:00,ns_1@127.0.0.1:<0.272.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-05-04T15:51:32.828+01:00,ns_1@127.0.0.1:simple_store_xdcr_ckpt_data<0.253.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-05-04T15:51:33.249+01:00,ns_1@127.0.0.1:<0.269.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-04T15:51:33.251+01:00,ns_1@127.0.0.1:<0.269.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-04T15:51:33.252+01:00,ns_1@127.0.0.1:<0.269.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-05-04T15:51:33.256+01:00,ns_1@127.0.0.1:<0.274.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-05-04T15:51:33.256+01:00,ns_1@127.0.0.1:<0.271.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-05-04T15:51:33.256+01:00,ns_1@127.0.0.1:<0.272.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-05-04T15:51:33.256+01:00,ns_1@127.0.0.1:<0.273.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-05-04T15:51:33.256+01:00,ns_1@127.0.0.1:<0.275.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-05-10T10:58:34.712+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.18246.80>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-05-10T10:58:34.818+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18258.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-10T10:58:34.904+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18258.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-10T10:58:34.918+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18258.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-05-10T10:58:34.997+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18261.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-05-10T10:58:34.997+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18260.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-05-10T10:58:34.997+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18263.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-05-10T10:58:34.997+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18262.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-05-10T10:58:34.997+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18266.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-05-10T10:58:37.641+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18271.80>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-05-10T10:58:37.642+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18271.80>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBW4FAOJfh9IOag==
+[metakv:debug,2017-05-10T14:18:17.044+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.30954.85>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-05-10T14:18:17.185+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.30968.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-10T14:18:17.186+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.30968.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-10T14:18:17.187+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.30968.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-05-10T14:18:17.191+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.30971.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-05-10T14:18:17.192+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.30969.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-05-10T14:18:17.192+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.30977.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-05-10T14:18:17.192+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.30972.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-05-10T14:18:17.192+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.30973.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-05-10T14:19:33.145+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.31620.85>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-05-10T14:19:34.790+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.31632.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-10T14:19:34.791+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.31632.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-10T14:19:34.791+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.31632.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-05-10T14:19:34.795+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.31635.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-05-10T14:19:34.795+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.31637.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-05-10T14:19:34.795+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.31636.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-05-10T14:19:34.795+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.31638.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-05-10T14:19:34.795+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.31633.85>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-05-10T14:22:48.627+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.165.86>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-05-10T14:22:48.715+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.176.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-10T14:22:48.717+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.176.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-05-10T14:22:48.719+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.176.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-05-10T14:22:48.723+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.183.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-05-10T14:22:48.723+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.182.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-05-10T14:22:48.724+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.179.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-05-10T14:22:48.724+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.180.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-05-10T14:22:48.724+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.184.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-05-10T14:22:56.651+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.86>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-05-10T14:22:56.651+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.86>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBW4FAOJfh9IOag==
+[metakv:debug,2017-05-10T14:35:49.837+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.86>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-06-30T15:52:28.675+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.283.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-06-30T15:52:29.643+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.303.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-06-30T15:52:29.646+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.303.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-06-30T15:52:29.646+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-06-30T15:52:29.647+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-06-30T15:52:29.648+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.303.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-06-30T15:52:29.654+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-06-30T15:52:29.654+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.307.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-06-30T15:52:29.654+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.310.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-06-30T15:52:29.654+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.308.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-06-30T15:52:29.654+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.311.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-08-01T11:02:17.843+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.258.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-08-01T11:02:19.161+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.277.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-08-01T11:02:19.165+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.277.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-08-01T11:02:19.166+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.278.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-08-01T11:02:19.167+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.277.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-08-01T11:02:19.167+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.278.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-08-01T11:02:19.177+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.285.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-08-01T11:02:19.177+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.282.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-08-01T11:02:19.177+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.283.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-08-01T11:02:19.178+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.286.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-08-01T11:02:19.178+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.284.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-08-09T14:30:02.859+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.294.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-08-09T14:30:04.175+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.313.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-08-09T14:30:04.178+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.313.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-08-09T14:30:04.178+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.315.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-08-09T14:30:04.180+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.315.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-08-09T14:30:04.180+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.313.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-08-09T14:30:04.187+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.318.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-08-09T14:30:04.187+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.321.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-08-09T14:30:04.187+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.322.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-08-09T14:30:04.187+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.319.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-08-09T14:30:04.188+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.320.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-08-17T14:53:09.188+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.304.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-08-17T14:53:10.486+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.321.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-08-17T14:53:10.489+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.321.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-08-17T14:53:10.490+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.325.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-08-17T14:53:10.491+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.321.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-08-17T14:53:10.492+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.325.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-08-17T14:53:10.498+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.330.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-08-17T14:53:10.498+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.327.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-08-17T14:53:10.498+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.331.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-08-17T14:53:10.499+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.329.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-08-17T14:53:10.499+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.332.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-09-01T16:14:31.237+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.282.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-09-01T16:14:32.451+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-09-01T16:14:32.456+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.306.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-09-01T16:14:32.459+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.306.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-09-01T16:14:32.459+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-09-01T16:14:32.462+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-09-01T16:14:32.474+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.312.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-09-01T16:14:32.474+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.313.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-09-01T16:14:32.474+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.314.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-09-01T16:14:32.474+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.311.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-09-01T16:14:32.474+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.310.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-09-28T10:26:05.018+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.281.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-09-28T10:26:06.225+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.302.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-09-28T10:26:06.230+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.305.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-09-28T10:26:06.234+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.302.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-09-28T10:26:06.234+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.305.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-09-28T10:26:06.238+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.302.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-09-28T10:26:06.247+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-09-28T10:26:06.248+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.310.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-09-28T10:26:06.248+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.311.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-09-28T10:26:06.248+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.313.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-09-28T10:26:06.248+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.312.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-10-11T11:20:59.013+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.281.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-10-11T11:21:00.293+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-10-11T11:21:00.298+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-10-11T11:21:00.299+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.305.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-10-11T11:21:00.302+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.305.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-10-11T11:21:00.303+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.304.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-10-11T11:21:00.312+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.312.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-10-11T11:21:00.312+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.311.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-10-11T11:21:00.312+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-10-11T11:21:00.312+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.310.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-10-11T11:21:00.312+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.313.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-10-19T03:06:01.094+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.291.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-10-19T03:06:02.525+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-10-19T03:06:02.531+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-10-19T03:06:02.531+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.311.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-10-19T03:06:02.534+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.311.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-10-19T03:06:02.534+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-10-19T03:06:02.543+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.315.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-10-19T03:06:02.543+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.319.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-10-19T03:06:02.543+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.318.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-10-19T03:06:02.543+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.317.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-10-19T03:06:02.543+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.316.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-10-19T03:07:44.017+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:simple_store_xdcr_ckpt_data<0.287.0>:simple_store:init:114]Creating Table: xdcr_ckpt_data
+[metakv:debug,2017-10-19T03:07:45.434+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.306.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-10-19T03:07:45.439+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.306.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = false
+[metakv:debug,2017-10-19T03:07:45.440+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-10-19T03:07:45.443+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.306.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = false
+[metakv:debug,2017-10-19T03:07:45.443+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAABaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-10-19T03:07:45.453+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.313.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /InternalSettings/. Continuous = true
+[metakv:debug,2017-10-19T03:07:45.453+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.311.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /GlobalConfiguration/. Continuous = true
+[metakv:debug,2017-10-19T03:07:45.453+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.314.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /bucketSettings/. Continuous = true
+[metakv:debug,2017-10-19T03:07:45.453+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.315.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /remoteCluster/. Continuous = true
+[metakv:debug,2017-10-19T03:07:45.453+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.312.0>:menelaus_metakv:handle_iterate:132]Starting iteration of /replicationSpec/. Continuous = true
+[metakv:debug,2017-10-19T10:57:51.391+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.309.0>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAACaAJtAAAAIDI1N2M5NGRlOTJiOWY4YmM4ODE0YWVkZjdlYzk4YjJiaAJhAW4FAB/zXNMOaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-10-19T10:57:52.420+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18522.11>:menelaus_metakv:handle_iterate:132]Starting iteration of /. Continuous = true
+[metakv:debug,2017-10-19T10:57:52.421+01:00,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18522.11>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAACaAJtAAAAIDI1N2M5NGRlOTJiOWY4YmM4ODE0YWVkZjdlYzk4YjJiaAJhAW4FAB/zXNMOaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==
+[metakv:debug,2017-11-08T09:06:35.066Z,ns_1@awwe-p-db-011.aws.uk.acmeplc.com:<0.18522.11>:menelaus_metakv:output_kv:165]Sent /indexing/settings/config rev: g2wAAAADaAJtAAAAIDI1N2M5NGRlOTJiOWY4YmM4ODE0YWVkZjdlYzk4YjJiaAJhAW4FAB/zXNMOaAJtAAAAIDY3MzQ1ZjdmY2ZhMWY0OGM1ZDg1MGNmNGFjZWU5YzY1aAJhAW4FABtFd9MOaAJtAAAAIGYxM2VlZTA0ZjI0MmJhZDM3ZTU0OTk5ZDQ2MDBiN2EwaAJhBm4FADWTh9IOag==

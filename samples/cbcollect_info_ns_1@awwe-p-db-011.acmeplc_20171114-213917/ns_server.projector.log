@@ -1,0 +1,6 @@
+==============================================================================
+couchbase logs (projector.log)
+cbbrowse_logs projector.log
+==============================================================================
+Requested log file "projector.log" does not exist.
+Usage: <progname> -report_dir <dir> [-log <name>]

@@ -1,0 +1,650 @@
+==============================================================================
+couchbase logs (ssl_proxy.log)
+cbbrowse_logs ssl_proxy.log
+==============================================================================
+[ns_server:info,2017-05-03T11:49:14.435+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-05-03T11:49:14.438+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-05-03T11:49:14.457+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-03T11:49:14.460+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-03T11:49:14.460+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-05-03T11:49:14.461+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]85282: Entered child_loop
+[ns_server:info,2017-05-03T11:53:05.027+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-05-03T11:53:05.031+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-05-03T11:53:05.051+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-03T11:53:05.054+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-03T11:53:05.054+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-05-03T11:53:05.055+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]6094: Entered child_loop
+[ns_server:info,2017-05-04T15:32:52.126+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-05-04T15:32:52.131+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-05-04T15:32:52.153+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-04T15:32:52.156+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-04T15:32:52.156+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-05-04T15:32:52.158+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]2751: Entered child_loop
+[ns_server:info,2017-05-04T15:51:33.649+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-05-04T15:51:33.654+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-05-04T15:51:33.674+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-04T15:51:33.678+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-04T15:51:33.678+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-05-04T15:51:33.680+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]6075: Entered child_loop
+[ns_server:info,2017-05-10T10:58:32.624+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-05-10T10:58:32.627+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-05-10T10:58:32.646+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-10T10:58:32.649+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-10T10:58:32.649+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-05-10T10:58:32.650+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]58815: Entered child_loop
+[ns_server:info,2017-05-10T14:18:18.418+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-05-10T14:18:18.422+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-05-10T14:18:18.439+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-10T14:18:18.442+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-10T14:18:18.442+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-05-10T14:18:18.444+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]72516: Entered child_loop
+[ns_server:info,2017-05-10T14:19:33.804+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-05-10T14:19:33.807+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-05-10T14:19:33.825+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-10T14:19:33.828+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-10T14:19:33.829+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-05-10T14:19:33.830+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]72692: Entered child_loop
+[ns_server:info,2017-05-11T13:35:02.349+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-05-11T13:35:02.352+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-05-11T13:35:02.371+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-11T13:35:02.373+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-05-11T13:35:02.374+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-05-11T13:35:02.375+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]38879: Entered child_loop
+[ns_server:info,2017-06-30T15:52:29.643+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-06-30T15:52:29.649+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-06-30T15:52:29.673+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-06-30T15:52:29.677+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-06-30T15:52:29.677+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-06-30T15:52:29.678+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]7403: Entered child_loop
+[ns_server:info,2017-08-01T11:02:18.979+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-08-01T11:02:18.990+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-08-01T11:02:19.013+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-08-01T11:02:19.020+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-08-01T11:02:19.020+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-08-01T11:02:19.021+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]3768: Entered child_loop
+[ns_server:info,2017-08-09T14:30:03.968+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-08-09T14:30:03.979+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-08-09T14:30:04.004+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-08-09T14:30:04.012+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-08-09T14:30:04.012+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-08-09T14:30:04.014+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]6654: Entered child_loop
+[ns_server:info,2017-08-17T14:53:10.246+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-08-17T14:53:10.258+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-08-17T14:53:10.285+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-08-17T14:53:10.293+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-08-17T14:53:10.294+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-08-17T14:53:10.295+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]3784: Entered child_loop
+[ns_server:info,2017-09-01T16:14:32.269+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-09-01T16:14:32.278+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-09-01T16:14:32.301+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-09-01T16:14:32.307+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-09-01T16:14:32.307+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-09-01T16:14:32.308+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]3753: Entered child_loop
+[ns_server:info,2017-09-28T10:26:06.038+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-09-28T10:26:06.045+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-09-28T10:26:06.068+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-09-28T10:26:06.073+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-09-28T10:26:06.074+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-09-28T10:26:06.075+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]13037: Entered child_loop
+[ns_server:info,2017-10-11T11:21:00.055+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-10-11T11:21:00.063+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-10-11T11:21:00.086+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-10-11T11:21:00.092+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-10-11T11:21:00.092+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-10-11T11:21:00.094+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]70254: Entered child_loop
+[ns_server:info,2017-10-19T03:06:02.221+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-10-19T03:06:02.230+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-10-19T03:06:02.259+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-10-19T03:06:02.269+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-10-19T03:06:02.269+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-10-19T03:06:02.271+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]5678: Entered child_loop
+[ns_server:info,2017-10-19T03:07:45.089+01:00,nonode@nohost:<0.31.0>:ns_ssl_proxy:init_logging:89]Brought up ns_ssl_proxy logging
+[error_logger:info,2017-10-19T03:07:45.097+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.61.0>},
+                       {name,ns_ssl_proxy_server_sup},
+                       {mfargs,{ns_ssl_proxy_server_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+[error_logger:info,2017-10-19T03:07:45.121+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.62.0>},
+                       {name,ns_ssl_downstream_proxy_listener},
+                       {mfargs,
+                           {ns_ssl_downstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-10-19T03:07:45.128+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+          supervisor: {local,ns_ssl_proxy_sup}
+             started: [{pid,<0.64.0>},
+                       {name,ns_ssl_upstream_proxy_listener},
+                       {mfargs,{ns_ssl_upstream_proxy_listener,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+[error_logger:info,2017-10-19T03:07:45.128+01:00,nonode@nohost:error_logger<0.6.0>:ale_error_logger_handler:do_log:203]
+=========================PROGRESS REPORT=========================
+         application: ns_ssl_proxy
+          started_at: nonode@nohost
+
+[ns_server:debug,2017-10-19T03:07:45.129+01:00,nonode@nohost:<0.2.0>:child_erlang:child_loop:115]6420: Entered child_loop

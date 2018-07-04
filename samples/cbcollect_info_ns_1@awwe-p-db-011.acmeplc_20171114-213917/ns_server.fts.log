@@ -1,0 +1,6 @@
+==============================================================================
+couchbase logs (fts.log)
+cbbrowse_logs fts.log
+==============================================================================
+Requested log file "fts.log" does not exist.
+Usage: <progname> -report_dir <dir> [-log <name>]

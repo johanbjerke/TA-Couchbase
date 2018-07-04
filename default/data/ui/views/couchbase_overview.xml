@@ -1,0 +1,79 @@
+<form>
+  <label>Couchbase Overview</label>
+  <search id="base">
+    <query>tag=couchbase $filter$ | fields *</query>
+    <earliest>$field1.earliest$</earliest>
+    <latest>$field1.latest$</latest>
+    <sampleRatio>1</sampleRatio>
+  </search>
+  <fieldset submitButton="false">
+    <input type="time" token="field1">
+      <label>Time</label>
+      <default>
+        <earliest>-30d@d</earliest>
+        <latest>now</latest>
+      </default>
+    </input>
+    <input type="text" token="filter" searchWhenChanged="true">
+      <label>Free text search</label>
+      <default></default>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <title>Events by Host</title>
+      <chart>
+        <search base="base">
+          <query>| timechart count by host</query>
+        </search>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">none</option>
+      </chart>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Events by Sourcetype - Click to drilldown</title>
+      <chart>
+        <search base="base">
+          <query>| timechart count by sourcetype</query>
+        </search>
+        <option name="charting.axisTitleX.visibility">collapsed</option>
+        <option name="charting.axisTitleY.visibility">collapsed</option>
+        <option name="charting.axisTitleY2.visibility">collapsed</option>
+        <option name="charting.chart">column</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.legend.placement">none</option>
+        <option name="trellis.enabled">1</option>
+        <drilldown>
+          <set token="e">$earliest$</set>
+          <set token="l">$latest$</set>
+          <set token="st">$trellis.split.sourcetype$</set>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row depends="$st$">
+    <panel>
+      <title>Raw log viewer</title>
+      <input type="dropdown" token="filter">
+        <label>Filter</label>
+        <default>$filter$</default>
+      </input>
+      <input type="dropdown" token="st">
+        <label>Sourcetype</label>
+        <default>$st$</default>
+      </input>
+      <event>
+        <search>
+          <query>tag=couchbase sourcetype=$st$ earliest=$e$ latest="$l$" $filter$</query>
+          <earliest>$earliest$</earliest>
+          <latest>$latest$</latest>
+        </search>
+        <option name="list.drilldown">none</option>
+      </event>
+    </panel>
+  </row>
+</form>

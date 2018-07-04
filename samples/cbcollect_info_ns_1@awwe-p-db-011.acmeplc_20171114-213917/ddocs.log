@@ -1,0 +1,7 @@
+==============================================================================
+replication docs (/opt/couchbase/data/db/_replicator.couch.1)
+['couch_dbdump', '/opt/couchbase/data/db/_replicator.couch.1']
+==============================================================================
+Dumping "/opt/couchbase/data/db/_replicator.couch.1":
+
+Total docs: 0
